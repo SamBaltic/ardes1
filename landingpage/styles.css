@@ -1,0 +1,714 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	
+}
+
+
+}
+.container-dark{
+	width: 100%;
+	background: #000;
+	
+}
+.landing-page{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/landing.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+}
+.landing-page h1{
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	font-size: 5rem;
+	text-transform: uppercase;
+	top: 3%;
+	letter-spacing: 5px;
+}
+.landing-page span{
+    font-family: 'Oswald', sans-serif;
+}
+.col-1{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: #000;
+	text-align: center;
+
+	flex-direction: column;
+}
+.text-2 p{
+	position: absolute;
+	color: #fff;
+	font-size: 1.9rem;
+	left: 20%;
+	top:12%;
+
+}
+.col-1 i{
+	font-size: 1rem;
+	transform: translateY(-15px);
+}
+.battery-info {
+	text-align: left;
+}
+.battery-info p{
+	color: #fff;
+}
+.battery-info h3{
+	color: #fff;
+	margin: 2rem 0;
+}
+.battery-info i{
+	font-size: 10px;
+}
+.product-black-img{
+	padding-top: 15rem;
+	display: flex;
+	justify-content: center;
+}
+
+.product-black-img img{
+	width: 500px;
+	padding: 2rem 0;
+}
+.product-info{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+	padding-left:2%;
+	
+}
+.row-1{
+	position: relative;
+	display: block;
+	width: 400px;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	background: #121315;
+	bottom:1px;
+}
+.row-1 p{
+	margin: 0 4rem;
+	width: 65%;
+	font-weight: 700;
+	font-size: 1.2rem;
+	padding-top: 7px;
+
+}
+.row-1 img{
+	width: 258px;
+}
+
+
+
+
+
+
+.product-watch-black{
+	display: flex;
+	width: 90%;
+	color: #fff;
+	margin-top: 3rem;
+}
+.product-watch-black img{
+	width: 700px;
+}
+.black-watch-info{
+	margin-top: 2rem;
+}
+.black-watch-info ul{
+	line-height: 30px;
+	text-align: left;
+	margin: 3rem 0;
+}
+.banner-btn{
+	display: inline-flex;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	justify-content: space-between;
+}
+.banner-btn h1{
+	color: #fff;
+	position: relative;
+	font-size: 2rem;
+}
+.banner-btn a{
+	width: 150px;
+	text-decoration:none;
+	color: white;
+	border: .5px solid white;
+	position: relative;
+	transition: 0.5s;
+	padding: 5px 0;
+
+}
+.banner-btn a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background: #fff;
+	z-index:-1;
+	transition: 0.5s;
+}
+.banner-btn a:hover span{
+	width: 100%;
+
+
+}
+.banner-btn a:hover {
+	color: #333;
+
+}
+
+
+
+.container-white{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	
+}
+.white-product{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+}
+.white-product img{
+	width: 70%;
+	height: 90%;
+}
+
+.logo{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.logo img{
+	width: 150px;
+
+}
+.white-info{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: #000;
+	align-items: center;
+}
+.white-info h1{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+.white-info span{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.white-info h3{
+	font-size: 1rem;
+
+}
+.white-info img{
+	width: 450px;
+	height: 300px;
+}
+.white-info h6{
+	font-size: 0.8rem;
+	text-align: right;
+}
+.white-info p{
+	font-size: 0.5rem;
+	text-align: right;
+	width: 90%;
+}
+
+
+
+.white-more-info{
+	position: relative;
+	display: inline-flex;
+	justify-content: space-between;
+	padding: 4rem;
+
+}
+.white-row-1{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	text-align: center;
+	background: #ededed;
+	width: 70%;
+}
+
+.white-row-1 h1{
+	font-size: 1.8rem;
+	width:80%; 
+	margin:1rem;
+	margin-bottom:6rem;
+}
+.b-image{
+	margin-top: 5rem;
+	position: absolute;
+	background-image: url(images/silver1.png);
+	 background-repeat: no-repeat;
+  	background-position: center; 
+	background-size: 100% 80%;
+	width: 100%;
+	height: 100%;
+}
+
+
+.row-2{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	text-align: center;
+	background: #ededed;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem;
+}
+.row-2 img{
+	width: 250px;
+	height: 350px;
+}
+.row-2 p{
+	font-size: 1.6rem;
+	margin-bottom: 3rem;
+}
+.white-row-2{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	
+}
+.class-1{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 90%;
+	border-radius: 20px;
+	text-align: center;
+	background:  #ededed;
+	margin: 1rem 4rem;
+}
+.class-1 img{
+	width: 250px;
+	height: 300px;
+}
+.class-11{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.class-11 h2{
+	font-size: 1.6rem;
+}
+.class-11 img{
+	width: 350px;
+	height: 250px;
+}
+.class-2{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 80%;
+	margin: 0 4rem;
+}
+
+.product-watch-white{
+	display: flex;
+	width: 90%;
+	color: #000;
+	margin-top: 3rem;
+	justify-content: space-between;
+	padding: 0 5rem;
+}
+.product-watch-white img{
+	width: 500px;
+}
+.white-watch-info{
+	margin-top: 2rem;
+}
+.white-watch-info ul{
+	line-height: 30px;
+	text-align: left;
+	margin: 3rem 0;
+	color: #000;
+}
+.banner-btn-1{
+	display: inline-flex;
+	width: 100%;
+	color: #000;
+	text-align: center;
+	justify-content: space-between;
+}
+.banner-btn-1 h1{
+	color: #000;
+	position: relative;
+	font-size: 2rem;
+}
+.banner-btn-1 a{
+	width: 150px;
+	height: 30px;
+	text-decoration:none;
+	color: #000;
+	border: .5px solid #000;
+	position: relative;
+	transition: 0.5s;
+	margin: 5px 0;
+
+}
+.banner-btn-1 a span{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background:#000;
+	z-index:-1;
+	transition: 0.5s;
+}
+.banner-btn-1 a:hover span{
+	width: 100%;
+
+
+}
+.banner-btn-1 a:hover {
+	color: #333;
+
+}
+
+footer{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h1{
+	font-size: 8rem;
+	color: #000;
+	font-weight: 300;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 10rem 10rem 5rem 10rem;
+}
+footer img{
+	position: absolute;
+	width: 50%;
+	transform: translateX(80%);
+}
+
+
+
+
+/*-----------------media phone--------------------*/
+
+@media screen and (max-width:378px){
+	.landing-page{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/landing.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	
+}
+.landing-page h1{
+	font-size: 3rem;
+}
+
+.text-2 p{
+	position: absolute;
+	color: #fff;
+	font-size: 1.2rem;
+	top:2%;
+	left: 1%;
+
+}
+.product-black-img{
+	padding:3rem 0;
+}
+.product-black-img img{
+	width: 300px;
+	padding: 2rem 0;
+}
+.product-info{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0;
+	align-items: center;
+}
+.row-1{
+	width: 80%;
+	margin-bottom:1rem;
+	align-items: bottom;
+}
+.row-1 img{
+	width: 218px;
+}
+.row-1 p{
+	padding-bottom: 2rem;
+}
+.battery-info{
+	text-align: center;
+}
+.battery-info p{
+	font-size: 0.9rem;
+}
+.product-watch-black{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.black-watch-info{
+	width: 100%;
+	text-align: center;
+}
+.banner-btn {
+	width: 100%;
+	padding: 0 1rem;
+	justify-content: space-between;
+}
+.banner-btn h1{
+	font-size: 1.5rem;
+}
+.banner-btn a{
+	width: 100px;
+}
+.container-white{
+	width: 100%;
+	display: block;
+}
+.white-product{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.white-product img{
+	width: 400px;
+}
+.logo{
+	width: 70%;
+	align-items: center;
+}
+.logo img{
+	width: 150px;
+}
+.white-info{
+	width: 100%;
+	text-align: center;
+}
+.white-info h3{
+	font-size: 0.7rem;
+}
+.white-info img{
+	width: 95%;
+}
+.white-info p{
+	text-align: center;
+	font-size: 0.6rem;
+	width: 80%;
+	padding-top: 0.5rem;
+}
+.white-more-info{
+	display: block;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+}
+.white-row-1{
+	margin-bottom: 4rem;
+	height: 600px;
+	width: 100%;
+}
+.white-row-1 h1{
+	font-size: 1.2rem;
+}
+.white-row-2{
+	width: 100%;
+	align-items: center;
+	
+}
+.class-1{
+	width: 100%;
+	align-items: center;
+	display: block;
+	padding: 0;
+	border-radius: 20px;
+
+}
+.class-1 img{
+	width: 100%;
+}
+.class-11 img{
+	width: 200px;
+	height: 150px;
+}
+.class-11{
+	justify-content: center;
+	align-items: center;
+}
+.class-11 h2{
+	font-size: 1rem;
+}
+.class-2{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+}
+.row-2{
+	width: 100%;
+
+}
+.row-2 img{
+	width: 100%;
+}
+.product-watch-white{
+	display: block;
+	width: 100%;
+	
+}
+.product-watch-white img{
+	width: 100%;
+}
+.banner-btn-1 h1{
+	font-size: 1rem;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+
+
+}
+footer img{
+	width: 100%;
+	position: relative;
+	transform: translateX(0);
+
+}
+footer h1{
+	font-size: 3rem;
+	margin: 5rem 0;
+}
+}
+
+
+/*-----------------media phone rotate + tablet--------------------*/
+
+@media screen and (max-width:768px){
+.text-2{
+	width: 90%;
+	text-align: center;
+}
+.text-2 p{
+	position: relative;
+	width: 80%;
+}
+.product-info{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+.row-1{
+	width: 95%;
+	margin: 0.5rem;
+}
+.row-1 p{
+	width: 100%;
+	font-size: 1.5rem;
+	margin: 0;
+}
+.battery-info{
+	width: 95%;
+}
+.battery-info h3{
+	width: 100%;
+	text-align: right;
+}
+.battery-info p{
+	text-align: right;
+	font-size: 0.8rem;
+}
+.product-watch-black img{
+	width: 450px;
+	height: 400px;
+}
+.black-watch-info h2{
+	font-size: 1.2rem;
+}
+.black-watch-info li{
+	font-size: 0.8rem;
+}
+.banner-btn{
+	width: 100%;
+	justify-content: space-between;
+}
+.banner-btn h1{
+	font-size: 1.2rem;
+}
+.banner-btn a{
+	font-size: 1rem;
+}
+.logo{
+	width: 95%;
+}
+.white-more-info{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	padding: 0;
+}
+.white-row-1{
+	width: 100%;
+	height: 60vh;
+	margin-bottom: 3rem;
+	text-align: center;
+	align-items: center;
+
+}
+.white-row-1 h1{
+	width: 80%;
+}
+.class-1{
+	width: 90%;
+}
+.product-watch-white{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.product-watch-white img{
+	width: 300px;
+	height: 350px;
+}
+
+footer h1{
+	font-size:3rem;
+}
+footer img{
+	transform: translate(100%, 20%);
+}
+
+}
